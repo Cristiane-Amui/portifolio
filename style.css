@@ -6,9 +6,9 @@
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>> */
 
-@media (min-width: 576xp){
+@media (min-width: 576px){
     body{
-        background-color: aqua;
+        background-color: #0ff;
     }
 }
 
@@ -18,6 +18,3 @@
 
 /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
-body{
-    background-color: #ece8e6;
-}
