@@ -2,6 +2,22 @@
     Folha de estilo do site
 */
 
+/* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>> */
+
+/* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>> */
+
+@media (min-width: 576xp){
+    body{
+        background-color: aqua;
+    }
+}
+
+/* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
 body{
     background-color: #ece8e6;
 }
