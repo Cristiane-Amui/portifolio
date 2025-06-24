@@ -2,6 +2,12 @@
     Folha de estilo do site
 */
 
+/* CSS Reset  */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>> */
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>> */
