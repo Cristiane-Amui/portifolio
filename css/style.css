@@ -8,6 +8,14 @@
     padding: 0;
     border: 0;
 }
+/* Importação Google Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+
+
+h1{
+    font-family: "Sixtyfour Convergence", sans-serif;
+}
+
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>> */
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>> */
