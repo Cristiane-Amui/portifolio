@@ -18,10 +18,8 @@ h1{
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>> */
 
-@media (min-width: 576px){
-    body{
-        background-color: #0ff;
-    }
+body{
+    background-color: #ece8e6;
 }
 
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>> */
