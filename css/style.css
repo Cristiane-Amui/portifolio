@@ -3,17 +3,15 @@
 */
 
 /* CSS Reset  */
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
+
 /* Importação Google Fontes */
-@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
 
 h1{
-    font-family: "Sixtyfour Convergence", sans-serif;
+      font-family: "Orbitron", sans-serif;
+
 }
 
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>> */
