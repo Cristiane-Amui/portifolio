@@ -28,3 +28,22 @@ body{
 
 /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
+/* Formatação do Menu */
+nav#menu {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    background-color: #cac1bd;
+    
+}
+nav#menu li {
+    display: inline-block;
+    padding: 10px;
+    margin: 15px;
+
+}
