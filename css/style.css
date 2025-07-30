@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
     Folha de estilo do site
 */
@@ -7,26 +8,57 @@
 /* Importação Google Fontes */
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+/* Formatação de textos */
 
 h1{
-      font-family: "Orbitron", sans-serif;
+    font-family: "Orbitron", sans-serif;
 
 }
 
-/* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>> */
-
-/* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>> */
+p {
+    font-family: "Nunito", sans-serif;
+    
+}
 
 body{
     background-color: #ece8e6;
+    color: #654d43;
+    font-size: 1em;
 }
 
-/* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* Layout */
+.Container {
+    margin: 0 auto;
+}
+/* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>> */
 
+/* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 756px) {
+    .Container {
+        max-width: 540px;
+    }
+}
+/* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 768px) {
+    .Container {
+        max-width: 720px;
+    }
+}
 /* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 992px) {
+    .Container {
+        max-width: 960px;
+    }
+}
 
 /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 1200px) {
+    .Container {
+        max-width: 540px;
+    }
+}
 
 /* Formatação do Menu */
 nav#menu {
@@ -46,4 +78,12 @@ nav#menu li {
     padding: 10px;
     margin: 15px;
 
+}
+
+
+/* Formatação de imagens */
+
+figure.boneco1 img {
+    width: 10%;
+    height: 5%;
 }
