@@ -32,6 +32,21 @@ body{
 .Container {
     margin: 0 auto;
 }
+
+/* Formatação do Menu */
+.Flex {
+    display: flex;
+    justify-content: space-between;
+    background-color: #cac1bd;
+}
+
+/* Logo do site */
+#logo img {
+    width: 100px;
+    height: 100px;
+}
+
+
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>> */
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>> */
@@ -60,25 +75,7 @@ body{
     }
 }
 
-/* Formatação do Menu */
-nav#menu {
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    left: 0px;
-}
-nav#menu ul {
-    list-style: none;
-    text-transform: uppercase;
-    background-color: #cac1bd;
-    
-}
-nav#menu li {
-    display: inline-block;
-    padding: 10px;
-    margin: 15px;
 
-}
 
 
 /* Formatação de imagens */
