@@ -41,14 +41,51 @@ body{
 }
 
 /* Logo do site */
+
+
+
+/* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>> */
+header {
+    height: 150px;
+}
+
 #logo img {
     width: 100px;
     height: 100px;
 }
 
+#check {
+    display: none;
+}
 
-/* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>> */
+label {
+    font-size: 3em;
+    padding-right: 15px;
+}
 
+nav ul {
+    list-style: none;
+    background-color: #d2d0cf;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    right: -100%;
+    width: 100%
+}
+
+#check:checked ~ ul {
+    right: 0;
+}
+
+nav ul li {
+    padding: 20px;
+    border-bottom: 1px solid #ece8e6;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #654d43;
+    font-family: "Nunito", sans-serif;
+}
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 756px) {
     .Container {
