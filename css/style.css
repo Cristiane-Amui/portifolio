@@ -50,8 +50,8 @@ header {
 }
 
 #logo img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 #check {
@@ -68,9 +68,11 @@ nav ul {
     background-color: #d2d0cf;
     height: 100vh;
     position: fixed;
-    top: 60px;
-    right: -100%;
-    width: 100%
+    top: 97px;
+    right: -1000%;
+    width: 100%;
+    transition: all 0.5s;
+
 }
 
 #check:checked ~ ul {
@@ -110,14 +112,47 @@ nav ul li a {
     .Container {
         max-width: 540px;
     }
+
+
+/* Cabeçalho */
+header {
+    height: 150px;
 }
 
+#logo img {
+    width: 52px;
+    height: 50px;
+    margin-top: 13px;
+    margin-bottom: 7px;
+    margin-left: 10px;
 
+}
 
+label {
+    display: none;
+}
+
+nav ul {
+    position: static;
+    height: auto;
+    background-color: transparent;
+    
+}
+
+nav ul li {
+    float: left;
+    border: 0;
+}
+
+nav ul li a:hover {
+    color: #ece8e6;
+}
+
+}
 
 /* Formatação de imagens */
 
 figure.boneco1 img {
-    width: 10%;
-    height: 5%;
+    width: 40%;
+    height: 40%;
 }
