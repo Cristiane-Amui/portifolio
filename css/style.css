@@ -9,6 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap');
 
 /* Formatação de textos */
 
@@ -19,6 +20,7 @@ h1{
 
 p {
     font-family: "Nunito", sans-serif;
+    margin: auto;
     
 }
 
@@ -26,11 +28,12 @@ body{
     background-color: #ece8e6;
     color: #654d43;
     font-size: 1em;
+    margin: 0;
 }
 
 /* Layout */
 .Container {
-    margin: 0 auto;
+    margin: auto;
 }
 
 /* Formatação do Menu */
@@ -38,6 +41,28 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: #cac1bd;
+
+   
+}
+
+.Botao {
+    text-decoration: none;
+    color: #654d43;
+    font-size: 1.2em;
+    font-family: "Mozilla Headline", sans-serif;
+    font-weight: 400;
+    padding-left: 1%;
+    padding-right: 10%;
+    position: fixed;
+}
+
+figure.boneco1 img {
+    width: 40%;
+    height: 40%;
+    padding-left: 5%;
+    padding-right: 10%;
+    position: relative;
+    top: -15px;
 }
 
 /* Logo do site */
@@ -88,6 +113,10 @@ nav ul li a {
     color: #654d43;
     font-family: "Nunito", sans-serif;
 }
+
+/* Destaque */
+
+
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 756px) {
     .Container {
