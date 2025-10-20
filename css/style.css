@@ -13,18 +13,18 @@
 
 /* Formatação de textos */
 
-h1{
+h1 {
     font-family: "Orbitron", sans-serif;
 
 }
 
 p {
     font-family: "Nunito", sans-serif;
-    margin: auto;
+    padding: 10px 10px;
     
 }
 
-body{
+body {
     background-color: #ece8e6;
     color: #654d43;
     font-size: 1em;
@@ -42,7 +42,11 @@ body{
     justify-content: space-between;
     background-color: #cac1bd;
 
-   
+}
+
+.Flex2 {
+    display: flex;
+    align-items: center;
 }
 
 .Botao {
@@ -56,14 +60,7 @@ body{
     position: fixed;
 }
 
-figure.boneco1 img {
-    width: 40%;
-    height: 40%;
-    padding-left: 5%;
-    padding-right: 10%;
-    position: relative;
-    top: -15px;
-}
+
 
 /* Logo do site */
 
@@ -115,6 +112,23 @@ nav ul li a {
 }
 
 /* Destaque */
+
+
+/* Conteúdo */
+#introducao {
+    
+}
+
+div.boneco1 img {
+    width: 50%;
+    height: 50%;
+    padding-left: 5%;
+    padding-right: 10%;
+    position: relative;
+    top: -15px;
+}
+
+
 
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>> */
