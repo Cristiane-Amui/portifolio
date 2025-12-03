@@ -132,26 +132,38 @@ div.boneco1 img {
 
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>> */
-@media (min-width: 756px) {
+@media (min-width: 667px) {
+    body{
+        background-color:aqua;
+    }
     .Container {
         max-width: 540px;
     }
 }
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 768px) {
+    body{
+        background-color: #ff0;
+    }
     .Container {
         max-width: 720px;
     }
 }
 /* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 992px) {
+    body{
+        background-color:#ff6600;
+    }
     .Container {
         max-width: 960px;
     }
 }
 
 /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-@media (min-width: 1200px) {
+@media (min-width: 1079px) {
+    body{
+        background-color:#f00;
+    }
     .Container {
         max-width: 540px;
     }
