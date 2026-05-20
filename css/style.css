@@ -33,7 +33,7 @@ body {
 
 /* Layout */
 .Container {
-    margin: auto;
+    margin: 0 auto;
 }
 
 /* Formatação do Menu */
@@ -165,7 +165,7 @@ div.boneco1 img {
         background-color:#f00;
     }
     .Container {
-        max-width: 540px;
+        max-width: 1140px;
     }
 
 
