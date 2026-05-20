@@ -132,9 +132,9 @@ div.boneco1 img {
 
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>> */
-@media (min-width: 667px) {
+@media (min-width: 576px){
     body{
-        background-color:aqua;
+        background-color: #0ff;
     }
     .Container {
         max-width: 540px;
@@ -160,7 +160,7 @@ div.boneco1 img {
 }
 
 /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-@media (min-width: 1079px) {
+@media (min-width: 1200px) {
     body{
         background-color:#f00;
     }
