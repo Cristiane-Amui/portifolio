@@ -34,6 +34,7 @@ body {
 /* Layout */
 .Container {
     margin: 0 auto;
+    background-color: #ece8e6;
 }
 
 /* Formatação do Menu */
@@ -67,15 +68,19 @@ body {
 
 
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>> */
+
+/* Cabeçalho */
 header {
     height: 150px;
 }
 
 #logo img {
-    width: 80px;
-    height: 80px;
+    width: 52px;
+    height: 50px;
+    align-items: center;
 }
 
+/* para esconder o checkbox */
 #check {
     display: none;
 }
@@ -133,27 +138,21 @@ div.boneco1 img {
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px){
-    body{
-        background-color: #0ff;
-    }
+    
     .Container {
         max-width: 540px;
     }
 }
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 768px) {
-    body{
-        background-color: #ff0;
-    }
+    
     .Container {
         max-width: 720px;
     }
 }
 /* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 992px) {
-    body{
-        background-color:#ff6600;
-    }
+    
     .Container {
         max-width: 960px;
     }
@@ -161,27 +160,25 @@ div.boneco1 img {
 
 /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 1200px) {
-    body{
-        background-color:#f00;
-    }
+    
     .Container {
         max-width: 1140px;
     }
 
 
-/* Cabeçalho */
-header {
-    height: 150px;
-}
+    /* Cabeçalho */
+    header {
+        height: 150px;
+    }
 
-#logo img {
-    width: 52px;
-    height: 50px;
-    margin-top: 13px;
-    margin-bottom: 7px;
-    margin-left: 10px;
+    #logo img {
+        width: 52px;
+        height: 50px;
+        margin-top: 13px;
+        margin-bottom: 7px;
+        margin-left: 10px;
 
-}
+    }
 
 label {
     display: none;
