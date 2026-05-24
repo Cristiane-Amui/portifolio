@@ -77,7 +77,9 @@ header {
 #logo img {
     width: 52px;
     height: 50px;
-    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-left: 10px;
 }
 
 /* para esconder o checkbox */
@@ -95,7 +97,7 @@ nav ul {
     background-color: #d2d0cf;
     height: 100vh;
     position: fixed;
-    top: 97px;
+    top: 55px;
     right: -1000%;
     width: 100%;
     transition: all 0.5s;
