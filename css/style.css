@@ -33,6 +33,7 @@ body {
 .Container {
     margin: 0 auto;
     background-color: #ece8e6;
+    height: 100vh;
 }
 
 /* Formatação do Menu */
@@ -95,7 +96,7 @@ nav ul {
     height: 100vh;
     position: fixed;
     top: 55px;
-    right: -100%;
+    right: -110%;
     width: 100%;
     transition: all 0.9s;
 
@@ -151,11 +152,9 @@ div.boneco1 img {
 
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>> */
-@media (min-width: 576px){
+@media (min-width: 576px) {
     
-    .Container {
-        
-    }
+    
 }
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 768px) {
